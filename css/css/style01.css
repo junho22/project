@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    font-size: 14px;
+}
+section{
+    display: flex;
+}
+header,footer{
+    background-color: greenyellow;
+    height: 100px;
+    text-align: center;
+    font-size: 1.4em;
+}
+article, aside, nav{
+   /* height: 300px; */
+   height: calc(100vh - 200px);
+    border: 1px solid gray;
+}
+article{
+    flex: 3;
+}
+aside{
+    flex: 1;
+}
+nav{
+    flex: 1;
+}
